@@ -17,14 +17,6 @@ A responsive and minimalistic task scheduling app built using **HTML, CSS, and J
 
 ---
 
-## 📸 Screenshots
-
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![Light Mode](screenshots/light-mode.png) | ![Dark Mode](screenshots/dark-mode.png) |
-
-> _Note: Replace these with your actual screenshot paths_
-
 ---
 
 ## 💻 Technologies Used
