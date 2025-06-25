@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Day Planner</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="navbar">
+     <div class="logo">
+  <span class="logo-icon">🗓️</span> 
+  <span class="logo-text">Day Planner</span>
+</div>
+
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="modeToggle">
+        <span class="slider round"></span>
+      </label>
+      <span id="modeLabel">Light Mode</span>
+    </div>
+  </header>
+
+
+  <div class="container">
+    <h2 class="section-heading">Today's Tasks</h2>
+
+    <form id="taskForm">
+      <input type="text" id="taskTitle" placeholder="Task title" required />
+      <input type="time" id="startTime" required placeholder="Start time" />
+      <input type="time" id="endTime" required placeholder="End time" />
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div id="taskList"></div>
+  </div>
+
+
+  <footer class="footer">
+    © 2025 Created by Rishabh Singh. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
